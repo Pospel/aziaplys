@@ -1,0 +1,218 @@
+/* Media quaries for (md-lg)*/
+@media (min-width: 992px) {
+    .menu__item:hover {
+        background: white;
+        transition: 0.2s;
+    }
+    .menu__item:hover a {
+        color: #fe171d;
+        transition: 0.2s;
+    }
+}
+/*Media quaries for (xxx-small)*/
+@media (max-width: 309.98px) {
+    .phone__number {
+        font-size: 1em!important;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .card-body {
+        font-size: 0.7em!important;
+    }
+    .tel__action {
+        font-size: 15px!important;
+    }
+    
+}
+/* Media quaries for (xl)*/
+@media (max-width: 1199.98px) {
+    .menu__item a {
+        font-family: 'EastAP';
+        font-size: 20px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+}
+/* Media quaries for (md-lg)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .menu {
+        border: none;
+    }
+}
+/* Media quaries for first screen (xs)*/
+@media (max-width: 575.98px) {
+    .menu__item a {
+        font-size: 1.1em!important;
+    }
+    .menu {
+        border-top: 2px solid white;
+    }
+    .header {
+        padding: 0;
+    }
+    .img__text {
+        font-size: 0.8em;
+    }
+    .welcome__text {
+        font-size: 1em!important;
+    }
+    .welcome__description {
+        display: none!important;
+    }
+    .oppo__block {
+        font-size: 0.8em!important;
+    }
+    .oppo_description {
+        font-size: 1.1em!important;
+    }
+    .menu__entry {
+        font-size: 1.1em!important;
+    }
+    .location__entry {
+        font-size: 1.1em!important;
+    }
+    .contacts__items {
+        font-size: 0.8em!important;
+    }
+    .official_items {
+        font-size: 0.8em!important;
+    }
+    .into__vok p {
+        margin-bottom: 2px;
+    }
+    .into__vok {
+        padding-left: 2px!important;
+        padding-top: 2px!important;
+    }
+}
+/* Media quaries for first screen (md)*/
+@media (max-width: 991.98px) {
+    .menu {
+        display: block !important;
+        margin-top: 20px !important;
+        text-align: right !important;
+        line-height: 2em !important;
+        border-top: none;
+        padding-bottom: 0px;
+    }
+    .img__text {
+        max-width: 70% !important;
+        height: auto !important;
+    }
+    .welcome__description {
+        padding-top: 40px !important;
+    }
+    h3 {
+        text-align: center;
+    }
+    .mapbox {
+        padding-top: 40px;
+    }
+}
+/* Media quaries for max-width-sm*/
+@media (max-width: 767.98px) {
+    .menu {
+        text-align: left!important;
+        margin-top: 0!important;
+        border-top: 2px solid white!important;
+    }
+    h1,h2,h3,h4,h5,h6 {
+        font-size: 1.5em!important;
+    }
+    .border__cards {
+        max-width: 95%;
+    }
+    .card:hover {
+        transform: none;
+    }
+    .card {
+        font-size: 0.5em;
+    }
+    .border__cards {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    .contborder__cards {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .padding__mobile {
+        padding: 5px!important;
+    }
+    .into__vok {
+        font-size: 0.6em;
+    }
+    .card-text {
+        font-size: 1.2em;
+    }
+    .main__img {
+        background-size: cover;
+    }
+}
+/*MOBILE MENU MEDIA*/
+@media (max-width: 767.98px) {
+    body {
+        overflow-x: hidden;
+    }
+    .phone__menu {
+        display: block;
+    }
+    .ul_phone {
+        display: none;
+        width: 0;
+        background: black;
+        border-left: 3px solid white;
+        border-radius: 3px;
+        margin-bottom: 10px;
+    }
+    .phone__item a {
+        font-family: 'EastAP';
+        padding-left: 5px;
+        color: black;
+        font-size: 1em;
+        display: block;
+        min-width: 180px;
+        border: 1px solid #f2171d;
+        background: white;
+    }
+    .phone__item {
+        margin-left: 1px;
+    }
+    .resize__phone {
+        font-size: 0.8em;
+        padding: 0;
+    }
+    .phone__action {
+        text-align: center;
+    }
+    .my__toggle__menu {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 8px;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    .pad-n-b {
+        padding: 0!important
+    }
+    .tel__action {
+        font-family: '';
+        font-size: 18px;
+        font-weight: 700;
+        color: white;
+        /*        border: 2px solid white;*/
+        border-radius: 5px;
+        padding: 4px;
+    }
+    .logo {
+        max-height: 80px;
+    }
+    .tel__action:hover {
+        color:white;
+    }
+    .my__toggle__menu {
+    cursor: pointer;
+    }
+}
+

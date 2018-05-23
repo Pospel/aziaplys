@@ -1,0 +1,6 @@
+Host: http://aziaplys.ru
+
+User-agent: *
+Disallow:
+Allow: /sitemap.htm
+Sitemap: http://aziaplys.ru/sitemap.xml

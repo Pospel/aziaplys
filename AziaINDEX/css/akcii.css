@@ -1,0 +1,19 @@
+.gift {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.option {
+    font-size: 20px;
+    text-align: left;
+    border-top: 3px solid #fe171d;
+    padding-top: 20px;
+    font-family: 'Merriweather'
+}
+.gift__menu {
+    text-align: center;
+    border-top: 3px solid #fe171d;
+    padding-top: 20px;
+    font-family: 'Merriweather';
+    font-size: 24px;
+    font-weight: 800;
+}

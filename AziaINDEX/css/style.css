@@ -1,0 +1,220 @@
+/* Main specification*/
+body {
+    
+}
+@font-face {
+    font-family: 'EastAP';
+    src: url('../fonts/EastAP.eot');
+    src: url('../fonts/EastAP.woff') format('woff'), url('../fonts/EastAP.ttf') format('truetype'), url('../fonts/EastAP.svg#EastAP') format('svg'), url('../fonts/EastAP.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'EastAP';
+}
+ul,li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+    text-decoration: none;
+}
+a {
+    text-decoration: none!important;
+    text-decoration-color: none!important;
+}
+
+/* First screen*/
+.header {
+    background: #fe171d;
+    color: #ffffff;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.menu {
+    margin-top: 18px;
+    border-bottom: 2px solid white;
+    padding-bottom: 18px;
+}
+.phone__tabs {
+    flex-direction: column;
+}
+.menu__item {
+    margin: 0 27px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px;
+    margin-left: 20px!important;
+    margin-right: 20px!important;
+}
+.menu__item a {
+    font-family: 'EastAP';
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.menu__dostavka {
+    padding-top: 20px;
+    justify-content: center;
+    font-family: 'Merriweather', serif;
+}
+.dostavka__item {
+    line-height: 20px;
+    font-size: 14px;
+    font-family: 'Merriweather', serif;
+    padding-top: 10px;
+    min-width: 270px;
+}
+.phone__number {
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    display: inline-block;
+}
+.fa {
+    font-size: 28px;
+    display: inline-block;
+    line-height: inherit;
+    position: relative;
+    top: 4px;
+}
+.postphone {
+    display: block!important;
+}
+
+/* Second screen */
+.main__img:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 0;
+}
+.main__img {
+    padding-bottom: 200px;
+    padding-top: 200px;
+    background: url("../images/glavnaya/jakub-kapusnak-29688.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.img__title {
+    font-family: 'EastAP';
+    font-size: 42px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+}
+.img__title::after {
+    content: "_______";
+    display: block;
+    font-family: 'Merriweather', serif;
+}
+.img__text {
+    /*    font-family: 'EastAP';*/
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 900px;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+/* Third screen */
+.opportunities {
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+.welcome__text {
+    font-weight: 700;
+    font-size: 1.3em;
+    text-align: left;
+    font-family: 'Merriweather'
+}
+.welcome__description {
+    font-size: 1.3em;
+    text-align: left;
+    font-family: 'Merriweather'
+}
+.oppo__block {
+    padding-top: 65px;
+}
+.oppo__title {
+    font-size: 28px;
+    font-weight: bolder;
+}
+.oppo_description {
+    font-size: 1.1em;
+    text-align: left;
+    border-top: 3px solid #fe171d;
+    padding-top: 20px;
+    font-family: 'Merriweather'
+}
+
+/* Forth screen */
+.img__block {
+    padding-bottom: 30px;
+}
+.mark__azia {
+    font-family: 'EastAP';
+    font-size: 32px;
+    font-weight: 400;
+    background: white;
+}
+.menu__entry {
+    display: block;
+    background: #fe171d;
+    font-family: 'EastAP';
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+    text-decoration-color: none;
+    border-radius: 5px;
+    width: 290px;
+}
+.menu__entry:hover {
+    color: #ffffff;
+}
+.open {
+    padding-bottom: 60px;
+}
+
+/* Fifth screen */
+.footer {
+    display: block;
+    position: relative;
+    background: #fe171d;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+.contacts__items {
+    font-size: 18px;
+    font-family: 'Merriweather';
+    line-height: 18px;
+}
+.official_items {
+    font-family: 'Merriweather';
+    font-size: 14px;
+    color: cornsilk;
+    padding-top: 20px;
+    line-height: 14px;
+}
+.site__by {
+    font-family: 'Merriweather';
+    font-size: 10px;
+    text-align: right;
+}
+.site__by a {
+    color: white;
+}

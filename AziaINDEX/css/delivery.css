@@ -1,0 +1,52 @@
+.about__del {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.del__title {
+    /*    padding-top: 30px;*/
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.del__span, h2, h3, h4, h5, h6 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Merriweather', serif;
+}
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    margin-top: 40px;
+    font-family: 'Merriweather';
+    font-size: 24px;
+    font-weight: 800;
+
+}
+.point__del {
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Merriweather', serif;
+    color: darkgray;
+    padding-bottom: 10px;
+    border-left: 3px solid #fe171d;
+    padding-left: 40px;
+}
+.location__entry {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    background: #fe171d;
+    font-family: 'EastAP';
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+    text-decoration-color: none;
+    border-radius: 5px;
+    max-width: 340px;
+    margin-top: 20px;
+}
+.location__entry:hover {
+    color: white;
+}

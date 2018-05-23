@@ -1,0 +1,168 @@
+.menu__cards {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.found__title {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.found__size {
+    font-size: 50px;
+}
+a {
+    text-decoration: none!important;
+    text-decoration-color: none!important;
+}
+.border__cards {
+    border-left: 3px solid #fe171d;
+    border-right: 3px solid #fe171d;
+    border-bottom: 25px solid #fe171d;
+    border-top: 3px solid #fe171d;
+    border-collapse: collapse;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    background: white;
+    transition: 0.6s ease 0.2s;
+    z-index: 10000;
+    display: block;
+    position: relative;
+}
+.menu__podtitle {
+    background: white;
+    text-align: center;
+    margin: 15px 00px;
+    padding: 15px 0px;
+    color: #fe171d;
+    border-radius: 5px;
+}
+h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.equal__size {
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.9rem;
+}
+.card {
+    margin-top: 20px;
+    border: 2px solid rgb(218, 218, 218);
+    transition: 0.4s;
+    font-family: 'Merriweather', serif;
+    width: 100%;
+    position: relative;
+}
+.card:hover {
+    margin-top: 20px;
+    border: 2px solid #fe171d;
+    font-family: 'Merriweather', serif;
+}
+.card:hover .cena__card {
+    background: #fe171d;
+    color: white;
+    transition: 0.33s ease
+}
+.card:hover .info__food {
+    background: #fe171d;
+    color: white;
+    transition: 0.33s ease;
+}
+.card-title {
+    font-family: 'Merriweather', serif;
+}
+.card-body {
+    padding-bottom: 0.5em;
+}
+.into__vok {
+    display: block;
+    background: rgba(254, 23, 29, 0.5);
+    position: absolute;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-top: 15px;
+    color: white;
+    line-height: 12px;
+}
+.info__food {
+    display: block;
+    background: rgba(254, 23, 29, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: -5px;
+    color: black;
+    line-height: 12px;
+    font-size: 12px;
+    text-align: right;
+    background: rgb(218, 218, 218);
+    border-bottom-left-radius: 5px;
+}
+.info__food p {
+    margin: 2px;
+}
+.cena__card {
+    border: 2px solid #fe171d;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 20px;
+    color: #fe171d;
+    width: 80px;
+    margin-bottom: 10px;
+    font-family: 'EastAP';
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+.rotate {
+    transform: scale(-1, 1);
+}
+.cont__podtitle {
+    background: #fe171d;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.non_margin {
+    margin-top: 0;
+}
+.poluci__skidku {
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+.poluci__text {
+    font-size: 24px;
+    font-family: 'Merriweather', serif;
+    font-weight: 200;
+}
+.location {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+}
+.location__entry {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    background: #fe171d;
+    font-family: 'EastAP';
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+    text-decoration-color: none;
+    border-radius: 5px;
+    max-width: 340px;
+    margin-top: 20px;
+}
+.location__entry:hover {
+    color: white;
+}
+.akcia {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    z-index: 100;
+    display: block;
+    position: relative;
+}

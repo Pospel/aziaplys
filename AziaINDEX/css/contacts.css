@@ -1,0 +1,15 @@
+.info__page {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.str__info {
+    padding-top: 40px;
+}
+.main__info {
+    font-size: 20px;
+    padding-left: 40px;
+    font-family: 'Merriweather'
+}
+.lf__border {
+    border-left: 3px solid #fe171d;
+}

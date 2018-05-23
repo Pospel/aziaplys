@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Меню доставки Азия Плюс</title>
+    <meta name="description" content="Меню доставки ресторана азиатской и паназиатской кухни Азия Плюс. Здесь вы можете познакомиться с нашим меню, выбрать блюда азиатской кухни, заказать доставку еды на дом."/>
+    <link rel="icon" type="image/png" href="images/glavnaya/favicon.png" sizes="41x41">
+    <link rel="canonical" href="http://aziaplys.ru/menu.html"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.my__toggle__menu').click(function() {
+                $('.ul_phone').slideToggle('slow');
+            })
+        });
+    </script>
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row mobile__menu d-md-none">
+                <div class="col-12 d-flex ">
+                    <div class="col-2 my-auto pad-n-b">
+                        <label class="my__toggle__menu my-auto"><i class="fa fa-bars"></i></label>
+                    </div>
+                    <div class="col-7 my-auto phone__action pad-n-b"><a href="tel:+79934441515" class="tel__action">+7(993)-444-15-15</a></div>
+                    <div class="col-4">
+                        <a href="index.html" class=""><img src="images/glavnaya/logo.jpg" alt="Азия Плюс" class="logo img-fluid"></a>
+                    </div>
+                </div>
+                <div class="col-12 d-block">
+                    <ul class="ul_phone justify-content-center ">
+                        <li class="phone__item"><a href="#rolls" class="">Роллы</a></li>
+                        <li class="phone__item"><a href="#farm_rolls" class="">Тёплые роллы</a></li>
+                        <li class="phone__item"><a href="#voks" class="">Воки</a></li>
+                        <li class="phone__item"><a href="#spring_rolls" class="">Спринг роллы</a></li>
+                        <li class="phone__item"><a href="#pegodya" class="">Пирожки на пару</a></li>
+                        <li class="phone__item"><a href="#hot_snacks" class="">Горячие закуски</a></li>
+                        <li class="phone__item"><a href="#salads" class="">Салаты</a></li>
+                        <li class="phone__item"><a href="#soups" class="">Супы</a></li>
+                        <li class="phone__item"><a href="#hot" class="">Горячие блюда</a></li>
+                        <li class="phone__item"><a href="#sous" class="">Соусы</a></li>
+                        <li class="phone__item"><a href="#drinks" class="">Напитки</a></li>
+                        <li class="menu__item">
+                            <a href="index.html" class="">Главная</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="menu.html" class="">Меню</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="akcii.html" class="">Новости</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="delivery.html" class="">Доставка</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="contacts.html" class="">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row d-none d-md-flex">
+                <div class="col-lg-2 col-md-4 col-6 my-auto mx-auto">
+                    <a href="#" class=""><img src="images/glavnaya/logo.jpg" alt="Азия Плюс" class="logo img-fluid"></a>
+                </div>
+                <div class="col-lg-9 col-md-8 col-12 ml-auto  d-md-flex d-lg-block">
+                    <nav>
+                        <ul class="menu d-flex justify-content-center ">
+                            <li class="menu__item">
+                                <a href="index.html" class="">Главная</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="menu.html" class="">Меню</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="akcii.html" class="">Новости</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="delivery.html" class="">Доставка</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="contacts.html" class="">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="row justify-content-end">
+                        <div class="menu__dostavka d-none d-lg-flex col-lg-9 col-xl-8 ml-auto d-md-block">
+                            <div class="dostavka__item col-lg-6 col-md-6 ml-auto col-xl-6">
+                                <i class="fa fa-mobile" aria-hidden="true"></i>
+                                <p class="phone__number">&nbsp;+7(993)-444-15-15</p>
+                                <p class="postphone">бесплатная доставка</p>
+                            </div>
+                            <div class="dostavka__item col-lg-6 col-md-6 col-xl-5 ml-auto">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <p class="phone__number">&nbsp;Фуд-Сити</p>
+                                <p class="postphone">ресторанный дворик</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="menu__cards">
+        <div class="container border__cards">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 found__title">
+                        <h1 class="found__size">Меню доставки</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row contborder__cards">
+                <div class="col-lg-12 ">
+                    <div class="row">
+                        <div class="col-lg-12 cont__podtitle non_margin">
+                            <div class="menu__podtitle">
+                                <a id="rolls" class=""></a>
+                                <h2>Роллы</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/roll_1_california.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>280гр</p>
+                                    <p>8 шт</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Калифорния</h3>
+                                    <p class="card-text">мясо краба, икра тобико, авакадо</p>
+                                </div>
+                                <div class="cena__card">240 Р</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/roll_2_phila.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>270гр</p>
+                                    <p>8 шт</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Филадельфия</h3>
+                                    <p class="card-text">лосось, авакадо, сыр</p>
+                                </div>
+                                <div class="cena__card">290 Р</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/roll_3_philaroyal.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>280гр</p>
+                                    <p>8 шт</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Роял филадельфия</h3>
+                                    <p class="card-text">лосось, икра, авокадо, сыр</p>
+                                </div>
+                                <div class="cena__card">300 Р</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/roll_4_banita.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>260гр</p>
+                                    <p>8 шт</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Банита</h3>
+                                    <p class="card-text">стружка тунца, лосось, сыр, огурец</p>
+                                </div>
+                                <div class="cena__card">240 Р</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/roll_5_canada.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>280гр</p>
+                                    <p>8 шт</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Канада</h3>
+                                    <p class="card-text">угорь, лосось, сыр, огурец</p>
+                                </div>
+                                <div class="cena__card">280 Р</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/roll_6_ebi.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>270гр</p>
+                                    <p>8 шт</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Эби ролл</h3>
+                                    <p class="card-text">креветки, сыр, авакодо, угорь</p>
+                                </div>
+                                <div class="cena__card">280 Р</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/roll_7_kioto.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>250гр</p>
+                                    <p>8 шт</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Киото</h3>
+                                    <p class="card-text">угорь, огурец, авокадо, икра</p>
+                                </div>
+                                <div class="cena__card">230 Р</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/roll_8_alyaska.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>260гр</p>
+                                    <p>8 шт</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Аляска</h3>
+                                    <p class="card-text">мясо краба, авокадо, лосось, сыр, майонез</p>
+                                </div>
+                                <div class="cena__card">220 Р</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/roll_9_maki.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>110гр</p>
+                                    <p>8 шт</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Маки роллы</h3>
+                                    <p class="card-text">угорь, лосось, краб</p>
+                                </div>
+                                <div class="cena__card">140 Р</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top img-fluid" src="images/photomenu/roll_10_maki.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>110гр</p>
+                                    <p>8 шт</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Маки роллы</h3>
+                                    <p class="card-text">огурец/авокадо</p>
+                                </div>
+                                <div class="cena__card">110 Р</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/roll_11_tempura.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>270гр</p>
+                                    <p>8 шт</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Темпура ролл</h3>
+                                    <p class="card-text">креветка в кляре, огурец, сыр</p>
+                                </div>
+                                <div class="cena__card">240 Р</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/roll_12_raduga.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>280гр</p>
+                                    <p>8 шт</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Радуга ролл</h3>
+                                    <p class="card-text">сыр, авокадо, огурец, (сверху: лосось/икра/угорь)</p>
+                                </div>
+                                <div class="cena__card">300 Р</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 cont__podtitle">
+                            <div class="menu__podtitle">
+                                <a id="farm_rolls" class=""></a>
+                                <h2>Тёплые роллы</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top rotate" src="images/photomenu/farm_salman_1.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>300гр</p>
+                                    <p>8 шт</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Сальман фрай</h3>
+                                    <p class="card-text">лосось, угорь, авакадо, сыр</p>
+                                </div>
+                                <div class="cena__card">310 Р</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/farm_syke_2.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>300гр</p>
+                                    <p>8 шт</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Сяке фрай</h3>
+                                    <p class="card-text">лосось, авакадо, сыр</p>
+                                </div>
+                                <div class="cena__card">280 Р</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/farm_york_3.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>280гр</p>
+                                    <p>6 шт</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Нью-Йорк</h3>
+                                    <p class="card-text">креветки, сыр, тобико, зелёный лук</p>
+                                </div>
+                                <div class="cena__card">240 Р</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/farm_crunch_4.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>290гр</p>
+                                    <p>8 шт</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Кранч</h3>
+                                    <p class="card-text">краб, сыр, зелёный лук</p>
+                                </div>
+                                <div class="cena__card">250 Р</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-8 cont__podtitle">
+                            <div class="menu__podtitle">
+                                <a id="voks" class=""></a>
+                                <h2>Воки</h2>
+                            </div>
+                        </div>
+                        <div class="d-none d-lg-block col-lg-4 cont__podtitle">
+                            <div class="menu__podtitle">
+                                <h2>Спринг роллы</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/vok_1.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>320гр</p>
+                                </div>
+                                <div class="into__vok">
+                                    <p>С курицей ....................220 р</p>
+                                    <p>С говядиной ...............250 р</p>
+                                    <p>С креветками .............300 р</p>
+                                    <p>С морепродуктами ..300 р</p>
+                                    <p>С овощами(280гр).....180 р</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Вок с лапшой</h3>
+                                    <p class="card-text">лапша на выбор: удон, гречневая, фунчоза</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/vok_2.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>320гр</p>
+                                </div>
+                                <div class="into__vok">
+                                    <p>С курицей ....................200 р</p>
+                                    <p>С говядиной ...............250 р</p>
+                                    <p>С морепродуктами ..280 р</p>
+                                    <p>С овощами(280гр).....170 р</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Вок с рисом</h3>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 d-lg-none cont__podtitle">
+                            <div class="menu__podtitle">
+                                <a id="spring_rolls" class=""></a>
+                                <h2>Спринг роллы</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mx-auto col-sm-6 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/spring_roll.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>320гр</p>
+                                </div>
+                                <div class="into__vok">
+                                    <p>С курицей ...................220 р</p>
+                                    <p>С овощами(280гр)....190 р</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Спринг ролл</h3>
+                                    <p class="card-text"> рисовые блинчики с начинкой на выбор.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 cont__podtitle">
+                            <div class="menu__podtitle">
+                                <a id="pegodya" class=""></a>
+                                <h2>Пирожки на пару</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 cont__podtitle d-none d-lg-block">
+                            <div class="menu__podtitle">
+                                <h2>Горячие закуски</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/pegodya_1.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>150гр</p>
+                                    <p>1 шт</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Пегодя (пянсе) традиционное</h3>
+                                    <p class="card-text">паровые пирожки с сочной начинкой из капусты, мяса и специй</p>
+                                </div>
+                                <div class="cena__card">60 Р</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/pegodya_2.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>150гр</p>
+                                    <p>1 шт</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Пегодя (пянсе) крахмальное</h3>
+                                    <p class="card-text">тесто с крахмалом, начинка из капусты, мяса и специй</p>
+                                </div>
+                                <div class="cena__card">60 Р</div>
+                            </div>
+                        </div>
+                        <div class="col-12 d-lg-none cont__podtitle">
+                            <div class="menu__podtitle">
+                                <a id="hot_snacks" class=""></a>
+                                <h2>Горячие закуски</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/hot_snack_3v1(2).jpg" alt="Card image cap">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <p class="card-text">Креветки в кляре 3/5/7шт</p>
+                                        <p class="card-text">Кольца кальмара в кляре 4шт</p>
+                                        <p class="card-text">Филе рыбки в кляре</p>
+                                    </div>
+                                    <div class="ml-auto text-right">
+                                        <p class="card-text">120/200/280 р</p>
+                                        <p class="card-text">200 р</p>
+                                        <p class="card-text">300 р</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 cont__podtitle">
+                            <div class="menu__podtitle">
+                                <a id="salads" class=""></a>
+                                <h2>Салаты</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/salad_chuka_1.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>100гр</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Чука-салат</h3>
+                                    <p class="card-text">с ореховым соусом</p>
+                                </div>
+                                <div class="cena__card">100 Р</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/salad_khe_3.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>100гр</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Баклажан-хе</h3>
+                                    <p class="card-text">салат из вяленых баклажан с морковской</p>
+                                </div>
+                                <div class="cena__card">150 Р</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 d-flex align-items-stretch padding__mobile ml-auto">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/salad_kim_4.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>100гр</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Ким-чи</h3>
+                                    <p class="card-text">салат, из сквашенной пекинской капусты заправленный, смесью из перца и приправ. </p>
+                                </div>
+                                <div class="cena__card">60 Р</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 d-flex align-items-stretch padding__mobile mr-auto mx-auto">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/salad_pan_5.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>100гр</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Пан-чан</h3>
+                                    <p class="card-text">корейский салат из квашенной рыбы с редькой</p>
+                                </div>
+                                <div class="cena__card">70 Р</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 cont__podtitle">
+                            <div class="menu__podtitle">
+                                <a id="soups" class=""></a>
+                                <h3>Супы</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/soup_kuck_1.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>400гр</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Кукси</h3>
+                                    <p class="card-text">корейское национальное блюдо из тонкой лапши, бульона, овощей и мяса.<br>в холодном или горячем виде</p>
+                                </div>
+                                <div class="cena__card">220 Р</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/soup_fobo_2.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>400гр</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Фо-бо</h3>
+                                    <p class="card-text">вьетнамский суп из говядины, рисовая лапша, зелень, лайм, имбирь</p>
+                                </div>
+                                <div class="cena__card">300 Р</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/soup_miso_3.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>280гр</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Мисо суп</h3>
+                                    <p class="card-text">японский суп с капустой</p>
+                                </div>
+                                <div class="cena__card">150 Р</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/soup_spicy_4.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>350гр</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Острый суп из говядины</h3>
+                                    <p class="card-text">говяжий суп с мясом и острой приправой, подается с рисом и салатами.</p>
+                                </div>
+                                <div class="cena__card">270 Р</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/soup_fish_5.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>320гр</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Рыбный суп</h3>
+                                    <p class="card-text">из сёмги с морепродуктами</p>
+                                </div>
+                                <div class="cena__card">270 Р</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/soup_tom_6.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>320гр</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Том-ям</h3>
+                                    <p class="card-text">с морепродуктами</p>
+                                </div>
+                                <div class="cena__card">300 Р</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 cont__podtitle">
+                            <div class="menu__podtitle">
+                                <a id="hot" class=""></a>
+                                <h2>Горячие блюда</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top rotate" src="images/photomenu/hot_1.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>300гр</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Спайси чикен</h3>
+                                    <p class="card-text">хрустящая курочка с овощами под соусом "чили спайси", подаётся с рисом</p>
+                                </div>
+                                <div class="cena__card">310 Р</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/hot_2.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>390гр</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Мясо по-китайски</h3>
+                                    <p class="card-text">курица, свинина, овощи, подаётся с рисом</p>
+                                </div>
+                                <div class="cena__card">280 Р</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/hot_3.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>280гр</p>
+                                    <p>13шт</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Пельмени</h3>
+                                    <p class="card-text">крупные вкусные пельмени варёные или жареные на выбор</p>
+                                </div>
+                                <div class="cena__card">240 Р</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <img class="card-img-top" src="images/photomenu/hot_4.jpg" alt="Card image cap">
+                                <div class="info__food">
+                                    <p>300гр</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Тофу с овощами</h3>
+                                    <p class="card-text">краб, сыр, зелёный лук</p>
+                                </div>
+                                <div class="cena__card">250 Р</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 cont__podtitle ">
+                            <div class="menu__podtitle">
+                                <a id="sous" class=""></a>
+                                <h2>Соусы</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 cont__podtitle d-none d-lg-block">
+                            <div class="menu__podtitle">
+                                <h2>Напитки</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-12 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <p class="card-text">Вассаби</p>
+                                        <p class="card-text">Имбирь</p>
+                                        <p class="card-text">Соевый соус</p>
+                                        <p class="card-text">Ореховый соус</p>
+                                        <p class="card-text">Сладкий чили соус</p>
+                                        <p class="card-text">Сладкий терияки соус</p>
+                                    </div>
+                                    <div class="ml-auto text-right">
+                                        <p class="card-text">20 р</p>
+                                        <p class="card-text">20 р</p>
+                                        <p class="card-text">20 р</p>
+                                        <p class="card-text">70 р</p>
+                                        <p class="card-text">30 р</p>
+                                        <p class="card-text">40 р</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 d-lg-none cont__podtitle">
+                            <div class="menu__podtitle">
+                               <a id="drinks" class=""></a>
+                                <h2>Напитки</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12 d-flex align-items-stretch padding__mobile">
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <p class="card-text">Чай (чёрный/зелёный) 0,33л</p>
+                                        <p class="card-text">Морс 0,33л</p>
+                                        <p class="card-text">Компот 0,33л</p>
+                                    </div>
+                                    <div class="ml-auto text-right">
+                                        <p class="card-text">100 р</p>
+                                        <p class="card-text">45 р</p>
+                                        <p class="card-text">40 р</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="akcia">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p class="poluci__skidku">Получи скидку 5%</p>
+                    <p class="poluci__text">Заказывай еду с собой и получай скидку на всё меню.</p>
+                </div>
+                <div class="col-lg-5 ml-auto location">
+                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                    <p class="phone__number">&nbsp;+7(993)-444-15-15</p>
+                    <p><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Фуд-Сити, ресторанный дворик</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-5"><a href="akcii.html" class="location__entry">Cмотреть все акции</a></div>
+                <div class="col-sm-5 ml-auto"><a href="delivery.html" class="location__entry">Посмотреть на карте</a></div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h4>Контакты</h4>
+                    <div class="contacts__items">
+                        <p>Телефон: +7(993)-444-15-15</p>
+                        <p>Адрес: Фуд-Сити, 2 этаж, Ресторанный дворик</p>
+                    </div>
+                    <div class="official_items">
+                        <p>© 2018 Все права защищены</p>
+                        <p>Политика конфиденциальности</p>
+                    </div>
+                    <div class="site__by">
+                        <a href="https://vk.com/pospelagle" target="_blank">site by Pospelov A.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
